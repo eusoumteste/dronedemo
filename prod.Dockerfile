@@ -1,3 +1,3 @@
-FROM harbor.eusoumteste/teste/imagembase:1.0.0
+FROM harborteste.lab.vaultid.com.br/teste/imagembase:1.0.0
 
 ADD index.html ./
