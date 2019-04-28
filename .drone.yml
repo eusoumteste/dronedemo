@@ -12,8 +12,8 @@ steps:
     image: plugins/docker
     settings:
       dockerfile: Dockerfile
-      registry: harbor.eusoumteste
-      repo: harbor.eusoumteste/teste/dronedemo
+      registry: harborteste.lab.vaultid.com.br
+      repo: harborteste.lab.vaultid.com.br/teste/dronedemo
       username:
         from_secret: harbor_user
       password:
