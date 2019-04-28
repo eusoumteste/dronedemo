@@ -1,0 +1,20 @@
+---
+kind: pipeline
+name: deploy-stg
+
+steps:
+  - name: tag
+    image: golang
+    commands:    
+      - echo -n "latest,$DRONE_COMMIT" > .tags
+
+  - name: image-create
+    image: plugins/docker
+    settings:
+      dockerfile: Dockerfile
+      registry: harbor.eusoumteste
+      repo: harbor.eusoumteste/teste/dronedemo
+      username:
+        from_secret: harbor_user
+      password:
+        from_secret: harbor_password
