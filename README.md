@@ -3,7 +3,7 @@
 [![Build Status](https://droneteste.lab.vaultid.com.br/api/badges/eusoumteste/dronedemo/status.svg)](https://droneteste.lab.vaultid.com.br/eusoumteste/dronedemo)
 
 Autor: Quintiliano Blumenschein Andrade  
-Evento: Meetup GoInfra - 30/04/2019
+Evento: Meetup GoInfra - 30/04/2019 - Goiânia/GO
 
 ---
 
