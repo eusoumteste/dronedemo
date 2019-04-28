@@ -1,7 +1,7 @@
 ## Drone + Harbor
 #### 30/04/2019
 
-Autor: Quintiliano Blumenschein Andrade
+Autor: Quintiliano Blumenschein Andrade  
 Evento: Meetup GoInfra - 30/04/2019
 
 ---
