@@ -11,7 +11,7 @@ steps:
   - name: image-create
     image: plugins/docker
     settings:
-      dockerfile: Dockerfile
+      dockerfile: prod.Dockerfile
       registry: harborteste.lab.vaultid.com.br
       repo: harborteste.lab.vaultid.com.br/teste/dronedemo
       username:
